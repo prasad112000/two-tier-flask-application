@@ -111,4 +111,13 @@ docker rm flaskapp mysql
 
 ---
 
+## 🔥 Notes & Best Practices
+✅ Replace placeholders (`your_username`, `your_password`, `your_database`) with actual values.
+✅ Follow best security practices for production deployments.
+✅ Sanitize user inputs to prevent SQL injection.
+✅ Check Docker logs for troubleshooting:
+```sh
+docker logs flaskapp
+docker logs mysql
+
 
